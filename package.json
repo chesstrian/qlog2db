@@ -1,0 +1,23 @@
+{
+  "name": "qlog2db",
+  "version": "0.1.0",
+  "description": "Asterisk queue_log File Reading",
+  "main": "mongo.js",
+  "scripts": {
+    "start": "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chesstrian/qlog2db.git"
+  },
+  "keywords": [
+    "asterisk",
+    "queue_log"
+  ],
+  "dependencies": {
+    "growing-file": "*"
+  },
+  "author": "Christian Gutierrez <chesstrian@gmail.com>",
+  "license": "MIT"
+}
