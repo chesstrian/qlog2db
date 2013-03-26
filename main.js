@@ -1,11 +1,10 @@
-
 var GrowingFile = require('growing-file');
 
 var qlogFile = '/var/log/asterisk/queue_log';
 var file = GrowingFile.open(qlogFile, { timeout: 3600000 });
 
 file.on('data', function (data) {
-  qlogLine = data.toString('utf-8').trim().split('|');
+  qlogLine = data.toString('utf-8').trim();
   console.log(qlogLine);
 });
 
