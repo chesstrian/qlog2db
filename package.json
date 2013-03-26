@@ -2,7 +2,7 @@
   "name": "qlog2db",
   "version": "0.1.0",
   "description": "Asterisk queue_log File Reading",
-  "main": "mongo.js",
+  "main": "main.js",
   "scripts": {
     "start": "node main",
     "test": "echo \"Error: no test specified\" && exit 1"
