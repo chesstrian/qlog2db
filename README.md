@@ -35,7 +35,7 @@ Name for database fields
 Database support
 ----------------
 
-For aditional database engine support:
+For additional database engine support:
 
  * Create directory for database files and scripts in principal directory.
  * Go to the database directory.
