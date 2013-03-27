@@ -16,7 +16,8 @@
     "queue_log"
   ],
   "dependencies": {
-    "growing-file": "*"
+    "growing-file": "*",
+    "mongoose": "*"
   },
   "author": "Christian Gutierrez <chesstrian@gmail.com>",
   "license": "MIT"

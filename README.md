@@ -30,15 +30,15 @@ Name for database fields
 ### Notes
 > http://www.voip-info.org/wiki/view/Asterisk+log+queue_log
 >
-> *Some DataBases require an aditional field for row id.*
+> *Some databases require an additional field for row id.*
 
 Database support
 ----------------
 
 For additional database engine support:
 
- * Create directory for database files and scripts in principal directory.
+ * Create directory for database files and scripts in main directory.
  * Go to the database directory.
  * Create database.json file with entries for database connection.
  * Into database.json file add a field called "enabled" with boolean value.
- * Implement in main.js script.
+ * Implement database.js in main directory script.
