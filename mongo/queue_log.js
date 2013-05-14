@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
   , Schema = mongoose.Schema;
 
-var queuelogSchema = new Schema ({
+var queuelogSchema = new Schema({
   timestamp: String,
   uniqueid: String,
   queue: String,
@@ -12,4 +12,4 @@ var queuelogSchema = new Schema ({
   param3: String
 });
 
-module.exports = mongoose.model ('queue_log', queuelogSchema, 'queue_log');
+module.exports = mongoose.model('queue_log', queuelogSchema, 'queue_log');
