@@ -42,3 +42,7 @@ For additional database engine support:
  * Create database.json file with entries for database connection.
  * Into database.json file add a field called "enabled" with boolean value.
  * Implement database.js in main directory script.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chesstrian/qlog2db/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
